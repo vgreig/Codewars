@@ -1,0 +1,10 @@
+#create function that shows that people whose name begin with R play banjo
+
+def are_you_playing_banjo(name):
+    for letter in name:
+        if letter[0] == "r":
+            return name + " plays banjo"
+        elif letter[0] == "R":
+            return name + " plays banjo"
+        else: 
+            return name + " does not play banjo"
